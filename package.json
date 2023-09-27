@@ -1,0 +1,32 @@
+{
+  "name": "oopy",
+  "version": "1.0.0",
+  "description": "oop in python",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rediahmds/oopy.git"
+  },
+  "keywords": [
+    "oop",
+    "beginner"
+  ],
+  "author": "reday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rediahmds/oopy/issues"
+  },
+  "homepage": "https://github.com/rediahmds/oopy#readme",
+  "devDependencies": {
+    "cz-git": "^1.7.1"
+  }
+}
